@@ -1,0 +1,26 @@
+{
+  "name": "chekpoint-mongoose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "back": "nodemon server.js",
+    "front":"cd client && npm start",
+    "dev":"concurrently \"npm run front\" \"npm run back\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}

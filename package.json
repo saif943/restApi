@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "back": "nodemon server.js",
-    "front":"cd client && npm start",
-    "dev":"concurrently \"npm run front\" \"npm run back\""
-
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
   },
   "keywords": [],
   "author": "",
@@ -16,6 +15,7 @@
     "config": "^3.3.6",
     "express": "^4.17.1",
     "mongoose": "^5.12.0",
+    "redux-thunk": "^2.3.0",
     "validator": "^13.5.2"
   },
   "devDependencies": {
